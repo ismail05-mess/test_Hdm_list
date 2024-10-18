@@ -25,6 +25,10 @@ Since the project structure was already set up, I took some time to familiarize 
 One of the challenges was ensuring that the frontend interacted properly with the backend API, especially for updating and deleting tasks. I researched the best practices for making API calls in React and applied this knowledge to complete the tasks.
 
 3. Database Integration
-I faced some issues with the MySQL setup initially, particularly with database connection errors. After troubleshooting and adjusting the .env file, I was able to resolve the issues and ensure the backend was properly connected to the database.
+I faced some issues with the MySQL setup initially, particularly with database connection errors. After troubleshooting , I was able to resolve the issues and ensure the backend was properly connected to the database.
+
+4. Handling the "Cannot GET /tasks/
+" Error (404)
+During the development, I encountered a 404 Not Found error when trying to access a specific task by its ID, such as http://localhost:3000/tasks/2. The issue was due to the lack of a specific route in the backend to handle this request.
 
 
